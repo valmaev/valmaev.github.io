@@ -1,0 +1,22 @@
+body, h1 {
+	margin: 0;
+}
+
+header {
+	float: left;
+	position: fixed;
+	background: #888;
+	min-height: 100%;
+	width: 17em;
+}
+
+
+#center-wrapper {
+    margin-left: 17em;
+}
+
+    #center-wrapper #center {
+        max-width: 50em;
+        margin-left: auto;
+        margin-right: auto;
+    }
