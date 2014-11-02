@@ -5,15 +5,26 @@ body, h1 {
 header {
     float: left;
     position: fixed;
-    background: #888;
+    background: #333;
     min-height: 100%;
     width: 20em;
-    text-align: center;
+    color: #aaa;
 }
+
+    header a, header a:visited {
+        color: #eee;
+        text-decoration: none;
+    }
+
+    header a:hover, header a:visited:hover {
+        color: #4ec9b0;
+        text-decoration: none;
+    }
 
     header .logo {
         width: 100%;
         padding-top: 1.5em;
+        text-align: center;
     }
 
     header .logo img {
@@ -21,6 +32,31 @@ header {
         height: 160px;
         border-radius: 50%
     }
+
+    header .info {
+        margin: 1.5em 1.5em 1.5em 2em;
+    }
+
+    header nav {
+        margin: 2em;
+    }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+    header ul.social {
+        text-align: center;
+        padding: 0;
+    }
+
+        header ul.social li{
+            display: inline-block;
+            font-size: 2em;
+            padding: 0.5em;
+        }
 
 #center-wrapper {
     margin-left: 17em;

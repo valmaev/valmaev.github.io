@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<title>{{ site.title }}</title>
 		<link href="css/main.css" rel="stylesheet" />
+        <link href="css/font-awesome.css" rel="stylesheet" />
 	</head>
 
 	<body>
@@ -17,8 +18,10 @@
 					</a>
 				</div>
 
-				<h1><a href="/">{{ site.author }}</a></h1>
-				<h3>{{ site.description }}</h3>
+                <div class="info">
+                    <h1><a href="/">{{ site.author }}</a></h1>
+                    <h3>{{ site.description }}</h3>
+                </div>
 
 				<nav>
 					<ul class="navigation">
@@ -32,20 +35,23 @@
 				</nav>
 
 				<ul class="social">
+                    <li>
+                        <a href="https://stackexchange.com/users/{{ site.stackexchange-id }}?tab=accounts">
+                            <i class="fa fa-stack-exchange"></i>
+                        </a>
+                    </li>
 					<li>
-						<a class="github" 
-						   href="https://github.com/{{ site.github-username }}">
-							github
+						<a href="https://github.com/{{ site.github-username }}">
+							<i class="fa fa-github-alt"></i>
 						</a>
 					</li>
-					<li>
-						<a class="stackoverflow" 
-						   href="https://stackoverflow.com/users/{{ site.stackoverflow-id }}">
-							stackoverflow
-						</a>
-					</li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </li>
 				</ul>
-				
+
 			</header>
 
 			<div id="center-wrapper">
