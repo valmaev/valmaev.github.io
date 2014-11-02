@@ -8,8 +8,19 @@ header {
 	background: #888;
 	min-height: 100%;
 	width: 17em;
+	text-align: center;
 }
 
+header .logo {
+	width: 100%;
+	padding-top: 1.5em;
+}
+
+header .logo img {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%
+}
 
 #center-wrapper {
     margin-left: 17em;
