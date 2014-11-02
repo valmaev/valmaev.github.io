@@ -10,13 +10,16 @@
 		<div id="container">
 
 			<header>
+
 				<div class="logo">
 					<a href="/">
 						<img src="https://secure.gravatar.com/avatar/{{ site.gravatar-hash }}?size=160" />
 					</a>
 				</div>
+
 				<h1><a href="/">{{ site.author }}</a></h1>
 				<h3>{{ site.description }}</h3>
+
 				<nav>
 					<ul class="navigation">
 						<li>
@@ -27,6 +30,7 @@
 						</li>
 					</ul>
 				</nav>
+
 				<ul class="social">
 					<li>
 						<a class="github" 
@@ -41,11 +45,14 @@
 						</a>
 					</li>
 				</ul>
+				
 			</header>
 
-			<div id="content-wrapper">
-				<div id="content">
-					{{ content }}
+			<div id="center-wrapper">
+				<div id="center">
+					<div id="content">
+						{{ content }}
+					</div>
 				</div>
 			</div>
 
