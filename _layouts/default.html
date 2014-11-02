@@ -11,12 +11,24 @@
 			<header>
 				<h1><a href="/">{{ site.author }}</a></h1>
 				<h3>My personal blog about software development</h3>
+				<ul class="social">
+					<li>
+						<a class="github" href="https://github.com/{{ site.github-username }}">
+							github
+						</a>
+					</li>
+					<li>
+						<a class="stackoverflow" href="https://stackoverflow.com/users/{{ site.stackoverflow-id }}">
+							stackoverflow
+						</a>
+					</li>
+				</ul>
 			</header>
 
 			<div id="main">
 				{{ content }}
 			</div>
-			
+
 		</div>
 	</body>
 </html>
