@@ -10,7 +10,7 @@ h1, h2, h3 {
 header {
     float: left;
     position: fixed;
-    background: #333;
+    background: #2d2d2d;
     min-height: 100%;
     width: 20em;
     color: #aaa;
@@ -23,7 +23,7 @@ header {
     }
 
     header a:hover, header a:visited:hover {
-        color: #4ec9b0;
+        color: #009c7b;
         text-decoration: none;
     }
 
@@ -76,12 +76,32 @@ header {
         }
 
 #center-wrapper {
-    margin-left: 17em;
+    margin-left: 20em;
 }
+
+    #center-wrapper a {
+        color: #009c7b;
+    }
+
+    #center-wrapper a:visited {
+        color: #888;
+    }
+    
+    #center-wrapper h1 a, #center-wrapper h1 a:visited {
+        text-decoration: none;
+        font-size: 1.5em;
+        color: #2d2d2d;
+    }
+
+    #center-wrapper h1 a:hover {
+        text-decoration: none;
+        font-size: 1.5em;
+        color: #009c7b;
+    }
 
     #center-wrapper #center {
         max-width: 50em;
-        margin-left: 5em;
+        margin-left: 2em;
         margin-right: auto;
         padding: 1em 1.5em;
     }
