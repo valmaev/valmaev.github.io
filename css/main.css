@@ -1,5 +1,10 @@
-body, h1 {
+body, h1, h2, h3 {
     margin: 0;
+    font-family: "Open sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 300;    
 }
 
 header {
@@ -9,6 +14,7 @@ header {
     min-height: 100%;
     width: 20em;
     color: #aaa;
+    text-align: center;
 }
 
     header a, header a:visited {
@@ -21,9 +27,18 @@ header {
         text-decoration: none;
     }
 
+    header h1 {
+        font-size: 3em;
+        line-height: 1.1em;
+    }
+
+    header h3 {
+        padding: 1em;
+    }
+
     header .logo {
         width: 100%;
-        padding-top: 1.5em;
+        padding-top: 3em;
         text-align: center;
     }
 
@@ -33,18 +48,20 @@ header {
         border-radius: 50%
     }
 
-    header .info {
-        margin: 1.5em 1.5em 1.5em 2em;
+    header .info, header nav {
+        margin: 1.5em 1.5em 1.5em 1.5em;
     }
 
     header nav {
         margin: 2em;
+        font-size: 1.5em;
+        font-weight: 100;
     }
 
         header nav ul {
             list-style-type: none;
             padding: 0;
-            margin: 0;
+            margin: 0;            
         }
 
     header ul.social {
@@ -55,7 +72,7 @@ header {
         header ul.social li{
             display: inline-block;
             font-size: 2em;
-            padding: 0.5em;
+            padding: 0.5em 0.6em 0.5em 0.6em;
         }
 
 #center-wrapper {
