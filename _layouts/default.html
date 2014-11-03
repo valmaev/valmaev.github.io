@@ -1,68 +1,74 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title>{{ site.title }}</title>
-		<link href="css/main.css" rel="stylesheet" type="text/css" />
+    <head>
+        <meta charset="utf-8" />
+        <title>{{ site.title }}</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
         <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
-	</head>
+    </head>
 
-	<body>
-		<div id="container">
+    <body>
+        <div id="container">
 
-			<header>
+            <header>
 
-				<div class="logo">
-					<a href="/">
-						<img src="https://secure.gravatar.com/avatar/{{ site.gravatar-hash }}?size=160" />
-					</a>
-				</div>
+                <div class="logo">
+                    <a href="/">
+                        <img src="https://secure.gravatar.com/avatar/{{ site.gravatar-hash }}?size=160" />
+                    </a>
+                </div>
 
                 <div class="info">
                     <h1><a href="/">{{ site.author }}</a></h1>
                     <h3>{{ site.description }}</h3>
                 </div>
 
-				<nav>
-					<ul class="navigation">
-						<li>
-							<a href="/archive">about</a>
-						</li>
-						<li>
-							<a href="/about">archive</a>
-						</li>
-					</ul>
-				</nav>
+                <nav>
+                    <ul class="navigation">
+                        <li>
+                            <a href="/archive">about</a>
+                        </li>
+                        <li>
+                            <a href="/about">archive</a>
+                        </li>
+                    </ul>
+                </nav>
 
-				<ul class="social">
+                <ul class="social">
                     <li>
                         <a href="https://stackexchange.com/users/{{ site.stackexchange-id }}?tab=accounts">
                             <i class="fa fa-stack-exchange"></i>
                         </a>
                     </li>
-					<li>
-						<a href="https://github.com/{{ site.github-username }}">
-							<i class="fa fa-github-alt"></i>
-						</a>
-					</li>
+                    <li>
+                        <a href="https://github.com/{{ site.github-username }}">
+                            <i class="fa fa-github-alt"></i>
+                        </a>
+                    </li>
                     <li>
                         <a href="">
                             <i class="fa fa-rss"></i>
                         </a>
                     </li>
-				</ul>
+                </ul>
 
-			</header>
+            </header>
 
-			<div id="center-wrapper">
-				<div id="center">
-					<div id="content">
-						{{ content }}
-					</div>
-				</div>
-			</div>
+            <div id="center-wrapper">
+                <div id="center">
 
-		</div>
-	</body>
+                    <div id="content">
+                        {{ content }}
+                    </div>
+                    
+                    <footer>
+                        <p>&copy; 2014 Vladimir Almaev</p>
+                    </footer>
+                    
+                </div>
+            </div>
+
+        </div>
+    </body>
 </html>
