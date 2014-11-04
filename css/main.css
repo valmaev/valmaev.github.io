@@ -111,6 +111,15 @@ header {
         padding: 2em 0;
     }
 
+.index article:not(:first-child) {
+    border-top: 1px solid #aaa;
+    padding-top: 2em;
+}
+
+.index article:not(:last-child) {
+    padding-bottom: 2em;
+}
+
 article blockquote {
     border-left: 3px solid #009c7b;
     padding: 0 1em;
