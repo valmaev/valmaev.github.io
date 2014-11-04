@@ -17,12 +17,12 @@ header {
     text-align: center;
 }
 
-    header a, header a:visited {
+    header a {
         color: #eee;
         text-decoration: none;
     }
 
-    header a:hover, header a:visited:hover {
+    header a:hover {
         color: #009c7b;
         text-decoration: none;
     }
@@ -83,12 +83,8 @@ header {
     #center-wrapper a {
         color: #009c7b;
     }
-
-    #center-wrapper a:visited {
-        color: #888;
-    }
-    
-    #center-wrapper h1 a, #center-wrapper h1 a:visited {
+   
+    #center-wrapper h1 a {
         text-decoration: none;
         font-size: 1.5em;
         color: #2d2d2d;
