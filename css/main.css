@@ -116,6 +116,29 @@ article blockquote {
     padding: 0 1em;
 }
 
+article .article-meta {
+    padding-top: 1em;
+}
+
+article .date,
+article .meta {
+    padding-right: 1em;
+}
+
+.article-meta .date:before,
+.article-meta .tags:before {
+    font: 1em FontAwesome;
+    padding-right: 0.5em;
+}
+
+.article-meta .date:before{
+    content: "\f073";
+}
+
+.article-meta .tags:Before {
+    content: "\f02c"
+}
+
 footer {
     border-top: 1px solid #aaa;
     padding-top: 0.5em;
