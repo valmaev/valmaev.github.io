@@ -148,6 +148,44 @@ article .meta {
     content: "\f02c"
 }
 
+#page-navigation {
+    padding: 1em;
+    position: relative;
+}
+
+    #page-navigation .prev,
+    #page-navigation .next { 
+        position: absolute;
+    }
+
+    #page-navigation .prev {
+        padding-left: 2em;
+        left: 0;
+    }
+
+    #page-navigation .prev:before {
+        content: "\f060";
+        font: 1.3em FontAwesome;
+        position: absolute;
+        left: 0;
+    }
+
+    #page-navigation .next {
+        padding-right: 2em;
+        right: 0;
+    }
+
+    #page-navigation .next:before {
+        content: "\f061";
+        font: 1.3em FontAwesome;
+        position: absolute;
+        right: 0;
+    }
+
+    #page-navigation .page-number {
+        text-align: center;
+    }
+
 footer {
     border-top: 1px solid #aaa;
     padding-top: 0.5em;
