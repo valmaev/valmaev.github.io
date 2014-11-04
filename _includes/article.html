@@ -1,12 +1,12 @@
 <h1 itemprop="name">
-    <a href="{{ page.url }}" itemprop="url">
-        {{ page.title }}
+    <a href="{{ post.url }}" itemprop="url">
+        {{ post_title | xml_escape }}
     </a>
 </h1>
 <div class="article-meta">
-    <span class="date">{{ page.date | date_to_string }}</span>
-    <span class="tags">{{ page.tags | join: ', ' }}</span>
+    <span class="date">{{ post_date | date_to_string }}</span>
+    <span class="tags">{{ post_tags | join: ', ' }}</span>
 </div>
 <div class="article-content" itemprop="articleBody">
-    {{ content }}
+    {{ post_content }}
 </div>
