@@ -15,16 +15,18 @@ layout: default
 {% endfor %}
 </div>
 
+{% if paginator.total_pages > 1 %}
 <nav id="page-navigation">
     {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="prev">Previous</a>
+        <a href="{{ paginator.previous_page_path }}" class="prev">Newer</a>
     {% endif %}
 
     {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+        <a href="{{ paginator.next_page_path }}" class="next">Older</a>
     {% endif %}
 
         <div class="page-number">
             Page {{paginator.page}} of {{paginator.total_pages}}
         </div>
 </nav>
+{% endif %}
