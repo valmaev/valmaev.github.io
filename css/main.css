@@ -136,12 +136,38 @@ article .meta {
     padding-right: 0.5em;
 }
 
-.article-meta .date:before{
+.article-meta .date:before {
     content: "\f073";
 }
 
-.article-meta .tags:Before {
-    content: "\f02c"
+.article-meta .tags:before {
+    content: "\f02c";
+}
+
+.tag-list {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tag {
+    float: left;
+    line-height: 2em;
+}
+
+    .tag a {
+        text-decoration: none;
+        background: #eee;
+        border-radius: 3px;
+        margin: 0.2em;
+        padding: 0.1em 0.3em;
+    }
+
+.tag-power {
+    vertical-align: super;
+    font-size: 0.8em;
+    color: #009c7b;
+    padding: 0.2em;
 }
 
 #page-navigation {
