@@ -2,3 +2,9 @@
 layout: page
 title: Tags
 ---
+
+{% assign tags = (site.tags | sort:0) %}
+{% include tags.html %}
+
+{% assign tags = (site.tags | sort:0) %}
+{% include articles-by-tags.html %}

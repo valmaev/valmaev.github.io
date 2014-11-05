@@ -1,0 +1,10 @@
+<ul>
+{% for tag in tags %} 
+    <li>
+        <a href="{{ BASE_PATH }}/tags/#{{ tag[0] }}">
+            {{ tag[0] }} <span>{{ tag[1].size }}</span>
+        </a>
+    </li>
+{% endfor %}
+</ul>
+{% assign tags = nil %}
