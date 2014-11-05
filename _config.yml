@@ -1,9 +1,15 @@
+# blog meta
 title: Vladimir Almaev
 description: My personal blog about software development
 author: Vladimir Almaev
 url: http://valmaev.github.io
+
+# blog settings
+markdown: redcarpet
+paginate: 10
+exclude: ["README.md"]
+
+# socials
 gravatar-hash: 1109dfea11862164a1d3183b100a3d58 
 github-username: valmaev
 stackexchange-id: 1209981
-markdown: redcarpet
-paginate: 10
