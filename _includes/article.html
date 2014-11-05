@@ -5,7 +5,11 @@
 </h1>
 <div class="article-meta">
     <span class="date">{{ post_date | date_to_string }}</span>
-    <span class="tags">{{ post_tags | join: ', ' }}</span>
+    <span class="tags">
+        {% for tag in post_tags %}
+        <a href="/tags/#{{ tag }}">{{ tag }}</a>    
+        {% endfor %}
+    </span>
 </div>
 <div class="article-content" itemprop="articleBody">
     {{ post_content }}

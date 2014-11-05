@@ -133,11 +133,11 @@ article .meta {
 .article-meta .date:before,
 .article-meta .tags:before {
     font: 1em FontAwesome;
-    padding-right: 0.5em;
 }
 
 .article-meta .date:before {
     content: "\f073";
+    padding-right: 0.5em;
 }
 
 .article-meta .tags:before {
@@ -150,12 +150,13 @@ article .meta {
     overflow: hidden;
 }
 
-.tag {
-    float: left;
-    line-height: 2em;
-}
+    .tag-list li {
+        float: left;
+        line-height: 2em;
+    }
 
-    .tag a {
+    .tags a,
+    .tag-list li a {
         text-decoration: none;
         background: #eee;
         border-radius: 3px;
