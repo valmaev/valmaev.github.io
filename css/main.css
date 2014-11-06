@@ -116,6 +116,10 @@ header {
     padding-bottom: 2em;
 }
 
+article * {
+    max-width: 100%;
+}
+
 article blockquote {
     border-left: 0.2em solid #009c7b;
     padding: 0 1em;
@@ -234,3 +238,45 @@ footer {
     footer p {
         margin: 0.5em 0;
     }
+
+@media screen and (max-width: 70em){
+
+    #center-wrapper #center {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 60em){
+
+    header{
+        width: 100%;
+        float: none;
+        position: static;
+        min-height: auto;
+    }
+        header nav {
+            margin: 0;
+        }
+
+        header nav li{
+            display: inline-block;
+            padding: 0 0.5em;
+        }
+
+        header ul.social {
+            margin: 0;
+            padding:2em 0 2em 0;
+        }
+
+    #center-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+        #center-wrapper #center {
+            padding: 0 1em;
+            margin-left: 0;
+            margin-right: 0;
+            max-width: inherit;
+        }
+}
