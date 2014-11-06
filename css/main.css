@@ -117,8 +117,9 @@ header {
 }
 
 article blockquote {
-    border-left: 3px solid #009c7b;
+    border-left: 0.2em solid #009c7b;
     padding: 0 1em;
+    margin: 1.3em;
 }
 
 article .article-meta {
