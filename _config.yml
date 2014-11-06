@@ -1,6 +1,6 @@
 # blog settings
-title: Vladimir Almaev
-description: My personal blog about software development
+title: Vladimir Almaev's blog
+description: Fail fast and keep discovering
 author: Vladimir Almaev
 url: https://valmaev.github.io
 enforce-ssl: true
