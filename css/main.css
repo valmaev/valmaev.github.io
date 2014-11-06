@@ -127,12 +127,14 @@ article .article-meta {
 }
 
 article .date,
-article .meta {
-    padding-right: 1em;
+article .meta,
+article .tags {
+    padding-right: 0.8em;
 }
 
 .article-meta .date:before,
-.article-meta .tags:before {
+.article-meta .tags:before,
+.article-meta .edit:before {
     font: 1em FontAwesome;
 }
 
@@ -143,6 +145,14 @@ article .meta {
 
 .article-meta .tags:before {
     content: "\f02c";
+}
+
+.article-meta .edit:before {
+    content: "\f044";
+}
+
+.article-meta .edit a {
+    text-decoration: none;
 }
 
 .tag-list {
@@ -164,6 +174,10 @@ article .meta {
         margin: 0.2em;
         padding: 0.1em 0.3em;
     }
+
+    .tags a:last-child {
+        margin-right: 0;    
+    } 
 
 .tag-power {
     vertical-align: super;
