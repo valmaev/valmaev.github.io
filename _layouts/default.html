@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        {% if site.enforce-ssl %}
-        <script type="text/javascript">
-            if (window.location.host == "{{ site.url }}" && window.location.protocol != "https:")
-                window.location = window.location.toString().replace(/^http:/, "https:");
-        </script>
-        {% endif %}
-
+        {% include enforce-ssl.html %}
         <meta charset="utf-8" />
         <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
         <link href="/css/main.css" rel="stylesheet" type="text/css" />
