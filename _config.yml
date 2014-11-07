@@ -3,16 +3,16 @@ title: Vladimir Almaev's blog
 description: Fail fast and keep discovering
 author: Vladimir Almaev
 url: https://valmaev.github.io
-github-repo-url: https://github.com/valmaev/valmaev.github.io
-enforce-ssl: true
+github_repo_url: https://github.com/valmaev/valmaev.github.io
+enforce_ssl: true
 
 # socials
-gravatar-hash: 1109dfea11862164a1d3183b100a3d58 
-github-username: valmaev
-stackexchange-id: 1209981
+gravatar_hash: 1109dfea11862164a1d3183b100a3d58 
+github_username: valmaev
+stackexchange_id: 1209981
 
 #analytics
-google-analytics-tracking-id: UA-56500618-1
+google_analytics_tracking_id: UA-56500618-1
 
 # jekyll settings
 markdown: redcarpet
