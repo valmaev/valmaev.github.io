@@ -198,6 +198,10 @@ article .tags {
     word-wrap: break-word;
 }
 
+.highlight-by-hand code {
+    font: 13px Consolas, Courier New;
+}
+
 #page-navigation {
     padding: 1em;
     position: relative;
