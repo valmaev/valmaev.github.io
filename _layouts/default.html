@@ -18,12 +18,12 @@
 
                 <div class="logo">
                     <a href="/">
-                        <img src="https://secure.gravatar.com/avatar/{{ site.gravatar_hash }}?size=160" />
+                        <img src="https://secure.gravatar.com/avatar/{{ site.author.gravatar_hash }}?size=160" />
                     </a>
                 </div>
 
                 <div class="info">
-                    <h1><a href="/">{{ site.author }}</a></h1>
+                    <h1><a href="/">{{ site.author.name }}</a></h1>
                     <h3>{{ site.description }}</h3>
                 </div>
 
@@ -43,12 +43,12 @@
 
                 <ul class="social">
                     <li>
-                        <a href="https://stackexchange.com/users/{{ site.stackexchange_id }}?tab=accounts">
+                        <a href="https://stackexchange.com/users/{{ site.author.stackexchange_id }}?tab=accounts">
                             <i class="fa fa-stack-exchange"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/{{ site.github_username }}">
+                        <a href="https://github.com/{{ site.author.github_username }}">
                             <i class="fa fa-github-alt"></i>
                         </a>
                     </li>
@@ -69,7 +69,7 @@
                     </div>
                     
                     <footer>
-                        <p>&copy; {{ site.time | date: "%Y" }} Vladimir Almaev</p>
+                        <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
                     </footer>
 
                 </div>

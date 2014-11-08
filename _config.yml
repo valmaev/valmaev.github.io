@@ -1,15 +1,16 @@
 # blog settings
 title: Vladimir Almaev's blog
 description: Fail fast and keep discovering
-author: Vladimir Almaev
 url: https://valmaev.github.io
 github_repo_url: https://github.com/valmaev/valmaev.github.io
 enforce_ssl: true
 
-# socials
-gravatar_hash: 1109dfea11862164a1d3183b100a3d58 
-github_username: valmaev
-stackexchange_id: 1209981
+# author
+author:
+    name: Vladimir Almaev
+    gravatar_hash: 1109dfea11862164a1d3183b100a3d58 
+    github_username: valmaev
+    stackexchange_id: 1209981
 
 #analytics
 google_analytics_tracking_id: UA-56500618-1
