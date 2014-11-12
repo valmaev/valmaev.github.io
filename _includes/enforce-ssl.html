@@ -1,6 +1,6 @@
 {% if site.enforce_ssl %}
 <script type="text/javascript">
-    if (window.location.host == "{{ site.host }}" && window.location.protocol != "https:")
+    if (window.location.host == "{{ site.production_host }}" && window.location.protocol != "https:")
         window.location = window.location.toString().replace(/^http:/, "https:");
 </script>
 {% endif %}
