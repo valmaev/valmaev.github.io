@@ -3,7 +3,7 @@ title: Vladimir Almaev's blog
 description: Fail fast and keep discovering
 url: https://valmaev.github.io
 production_host: valmaev.github.io
-github_repo_url: https://github.com/valmaev/valmaev.github.io
+github_repo_url: //github.com/valmaev/valmaev.github.io
 enforce_ssl: true
 
 # author
