@@ -20,7 +20,4 @@ google_analytics_tracking_id: UA-56500618-1
 # jekyll settings
 markdown: kramdown
 paginate: 10
-exclude: ["README.md"]
-gems:
-    - jekyll-paginate
-    - jekyll-sitemap
+exclude: ["Gemfile", "Gemfile.lock", "README.md"]
