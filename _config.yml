@@ -9,7 +9,7 @@ enforce_ssl: true
 # author
 author:
     name: Vladimir Almaev
-    gravatar_hash: 1109dfea11862164a1d3183b100a3d58 
+    gravatar_hash: 1109dfea11862164a1d3183b100a3d58
     github_username: valmaev
     stackexchange_id: 1209981
     twitter: vladimir_almaev
@@ -22,4 +22,5 @@ markdown: redcarpet
 paginate: 10
 exclude: ["README.md"]
 gems:
+    - jekyll-paginate
     - jekyll-sitemap
