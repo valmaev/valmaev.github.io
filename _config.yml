@@ -18,7 +18,7 @@ author:
 google_analytics_tracking_id: UA-56500618-1
 
 # jekyll settings
-markdown: redcarpet
+markdown: kramdown
 paginate: 10
 exclude: ["README.md"]
 gems:
